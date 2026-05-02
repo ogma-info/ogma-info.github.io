@@ -1,7 +1,7 @@
 title: Ogma - Hub de tutos
 description: "Plateforme de tutoriels pour reprendre le contrôle sur ta vie numérique. Sécurité, vie privée, outils open-source."
-baseurl: "/ogma.github.io"
-url: "https://6co-cp.github.io"
+baseurl: "/"
+url: "https://ogma-info.github.io"
 
 collections:
   tutoriels:
