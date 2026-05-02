@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title | default: site.title }}</title>
+    <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | truncatewords: 30 }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body class="dark-theme">
+
+    <!-- Sidebar de Navigation -->
+    <aside id="main-sidebar" class="sidebar-closed">
+        <div class="sidebar-header">
+            <h3>Tutoriels</h3>
+        </div>
+        <nav class="sidebar-nav">
+            <ul>
+                {% assign sorted_tutos = site.tutoriels | sort: 'order' %}
+                {% for tuto in sorted_tutos %}
+                <li>
+                    <a href="{{ tuto.url | relative_url }}" class="{% if page.url == tuto.url %}active{% endif %}">
+                        <span class="tuto-icon">{{ tuto.icon | default: '📄' }}</span>
+                        <span class="tuto-label">{{ tuto.title }}</span>
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+        </nav>
+        <button id="sidebar-toggle" aria-label="Toggle Sidebar">
+            <span class="arrow">→</span>
+        </button>
+    </aside>
+
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="{{ '/' | relative_url }}" class="logo">
+                <span class="logo-icon">🧠</span>
+                <span>Ogma<span class="logo-accent">.</span></span>
+            </a>
+            <button class="hamburger" id="hamburger" aria-label="Menu">☰</button>
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-links">
+                    <li><a href="{{ '/' | relative_url }}">Accueil</a></li>
+                    <li><a href="{{ '/' | relative_url }}#parcours">Tutoriels</a></li>
+                    <li><a href="https://github.com/6co-cp/ogma.github.io/issues" target="_blank" rel="noopener">💡 Idées & Bugs</a></li>
+                    <li><button class="theme-toggle" id="theme-toggle" aria-label="Changer de thème">☀️</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        {{ content }}
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>🧠 Ogma</h3>
+                    <p>Reprends le contrôle de ta vie numérique.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="{{ '/' | relative_url }}">Accueil</a></li>
+                        <li><a href="{{ '/' | relative_url }}#parcours">Tutoriels</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Contribuer</h4>
+                    <ul>
+                        <li><a href="https://github.com/6co-cp/ogma.github.io/issues" target="_blank" rel="noopener">Proposer une idée</a></li>
+                        <li><a href="https://github.com/6co-cp/ogma.github.io/issues" target="_blank" rel="noopener">Signaler un problème</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; {{ 'now' | date: '%Y' }} Ogma – Hub de Tutos. Projet réalisé à l'aide d'Antigravity.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+</body>
+</html>
