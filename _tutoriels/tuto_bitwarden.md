@@ -12,7 +12,7 @@ excerpt: "Apprends à utiliser le meilleur gestionnaire de mots de passe open-so
 
 1.  **🧠 Libération mentale :** Vous n'avez plus qu'un seul mot de passe à retenir (le "Maître"). Bitwarden retient les centaines d'autres pour vous.
 2.  **🛡️ Protection contre le piratage :** En utilisant un mot de passe unique et complexe pour chaque site (ex: `p9@$L!k92z`), si un site est piraté, vos autres comptes restent en sécurité.
-3.  **🚫 Anti-Phishing :** Bitwarden ne remplira vos identifiants que sur le site officiel enregistré. Si vous êtes sur un faux site, il ne proposera rien !
+3.  **🚫 [Anti-Phishing](/tutoriels/tuto_phishing/) :** Bitwarden ne remplira vos identifiants que sur le site officiel enregistré. Si vous êtes sur un faux site, il ne proposera rien !
 4.  **📱 Synchronisation totale :** Accédez à vos secrets sur votre PC, votre iPhone, votre Android ou votre tablette instantanément.
 
 ---
@@ -35,7 +35,7 @@ C'est indispensable pour se connecter à vos applis (Instagram, Banque, etc.).
 
 ## ✨ Étape 2 : Créer un nouveau secret (identifiant) 📝
 
-Lorsque vous vous inscrivez sur un nouveau site ou une app :
+Lorsque vous vous inscrivez sur un nouveau site ou une app (consultez aussi la [documentation officielle](https://bitwarden.com/fr-fr/help/getting-started-browserext/)) :
 
 1.  Ouvrez Bitwarden 🛡️ et cliquez sur le bouton **"+"** (Ajouter un élément).
 2.  **Nom :** Donnez un nom (ex: "Amazon").
@@ -45,7 +45,9 @@ Lorsque vous vous inscrivez sur un nouveau site ou une app :
     *   **Sur Web :** Si l'extension est ouverte sur la page, elle remplit l'URL toute seule !
     *   **Sur Mobile :** Bitwarden détecte souvent l'application ouverte (ex: l'app Disney+) et lie automatiquement le secret à cette application. 🎯
 
-![Capture : Création d'un élément Bitwarden](https://raw.githubusercontent.com/bitwarden/help/master/images/vault-items/add-item-browser.png)
+> **💡 Conseil d'expert :** Un mot de passe robuste est toujours complexe et dans l'idéal constitué d'au moins 16 caractères aléatoires, de chiffres, de lettres majuscules et minuscules, et de caractères spéciaux.
+
+![Capture : Création d'un élément Bitwarden](https://bitwarden.com/assets/1VWm8z3IF7xBuCXsPhLybv/48498d9a3b4ec7e3e182b07501bd4399/bw_extension_2.jpg?w=394&fm=avif)
 *Interface de création d'un secret.*
 
 ---
@@ -62,14 +64,14 @@ Lorsque vous vous inscrivez sur un nouveau site ou une app :
 3.  **La bulle magique :** Une suggestion "Bitwarden" ou "Mots de passe" apparaît juste au-dessus du clavier ou dans une info-bulle. 🫧
 4.  **Biométrie :** Posez votre doigt (Empreinte) ou montrez votre visage (FaceID/Face Unlock). Le champ se remplit tout seul ! 🧬
 
-![Capture : Remplissage mobile](https://bitwarden.com/help/images/auto-fill/mobile-autofill-ios-keyboard.png)
-*Exemple de suggestion de remplissage sur mobile.*
+![Capture : Remplissage Bitwarden](https://www.prajwaldesai.com/wp-content/uploads/2023/03/Autofill-Logins-in-Browser-using-Bitwarden-Password-Manager-Snap3-1024x727.jpg)
+*Exemple de suggestion de remplissage sur navigateur.*
 
 ---
 
 ## ✅ Quelques conseils d'expert 💎
 
 *   **⚡ Rapidité :** Activez le déverrouillage biométrique (Empreinte/Visage) pour ne jamais avoir à taper votre long mot de passe maître sur mobile.
-*   **🛡️ Double Sécurité :** Activez le 2FA. Même si quelqu'un trouve votre mot de passe maître, il ne pourra pas entrer sans votre téléphone !
+*   **🛡️ Double Sécurité :** [Activez le 2FA](/tutoriels/tuto_2fa/). Même si quelqu'un trouve votre mot de passe maître, il ne pourra pas entrer sans votre téléphone !
 
 Vous êtes désormais protégé sur TOUS vos écrans ! 🌍🌐
