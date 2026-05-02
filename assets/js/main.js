@@ -41,14 +41,17 @@
   const sidebarToggle = document.getElementById('sidebar-toggle');
   
   function setSidebarState(isOpen) {
+    const icon = document.getElementById('sidebar-toggle-icon');
     if (isOpen) {
         sidebar.classList.remove('sidebar-closed');
         document.body.classList.add('sidebar-open');
         localStorage.setItem('ogma-sidebar', 'open');
+        if (icon) icon.textContent = '◀️';
     } else {
         sidebar.classList.add('sidebar-closed');
         document.body.classList.remove('sidebar-open');
         localStorage.setItem('ogma-sidebar', 'closed');
+        if (icon) icon.textContent = '▶️';
     }
   }
 

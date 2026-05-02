@@ -47,7 +47,7 @@ Lorsque vous vous inscrivez sur un nouveau site ou une app (consultez aussi la [
 
 > **💡 Conseil d'expert :** Un mot de passe robuste est toujours complexe et dans l'idéal constitué d'au moins 16 caractères aléatoires, de chiffres, de lettres majuscules et minuscules, et de caractères spéciaux.
 
-![Capture : Création d'un élément Bitwarden](https://bitwarden.com/assets/1VWm8z3IF7xBuCXsPhLybv/48498d9a3b4ec7e3e182b07501bd4399/bw_extension_2.jpg?w=394&fm=avif)
+![Capture : Création d'un élément Bitwarden]({{ '/assets/images/bw_step2.jpg' | relative_url }})
 *Interface de création d'un secret.*
 
 ---
@@ -64,7 +64,7 @@ Lorsque vous vous inscrivez sur un nouveau site ou une app (consultez aussi la [
 3.  **La bulle magique :** Une suggestion "Bitwarden" ou "Mots de passe" apparaît juste au-dessus du clavier ou dans une info-bulle. 🫧
 4.  **Biométrie :** Posez votre doigt (Empreinte) ou montrez votre visage (FaceID/Face Unlock). Le champ se remplit tout seul ! 🧬
 
-![Capture : Remplissage Bitwarden](https://www.prajwaldesai.com/wp-content/uploads/2023/03/Autofill-Logins-in-Browser-using-Bitwarden-Password-Manager-Snap3-1024x727.jpg)
+![Capture : Remplissage Bitwarden]({{ '/assets/images/bw_step3.jpg' | relative_url }})
 *Exemple de suggestion de remplissage sur navigateur.*
 
 ---
