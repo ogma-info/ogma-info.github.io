@@ -22,7 +22,7 @@ Naviguer sur Internet sans bloqueur, c'est comme marcher sous la pluie sans para
 
 Il existe beaucoup de bloqueurs, mais le plus recommandé (open-source et très léger) est **uBlock Origin**.
 
-*   **Pour Ordinateur :** Installez l'extension [uBlock Origin](https://ublockorigin.com/) sur Chrome, Firefox ou Edge.
+*   **Pour Ordinateur :** Installez l'extension uBlock Origin sur [Chrome, Edge, Brave](https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh?hl=fr) ou sur [Firefox](https://addons.mozilla.org/fr/firefox/addon/ublock-origin/) ou votre navigateur préféré via votre magasin d'extensions.
 *   **Pour Mobile :** Utilisez des navigateurs qui intègrent déjà un bloqueur, comme **Brave** ou **Firefox Mobile** avec l'extension uBlock.
 
 ---
