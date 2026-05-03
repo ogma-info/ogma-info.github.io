@@ -1,7 +1,7 @@
 ---
 layout: tutorial
 title: "Mots de passe (Bitwarden)"
-icon: "🔐"
+icon: "🪎"
 order: 1
 status: available
 excerpt: "Apprends à utiliser le meilleur gestionnaire de mots de passe open-source pour sécuriser tous tes comptes."
