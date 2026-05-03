@@ -41,15 +41,33 @@
                 <span class="logo-icon">🧠</span>
                 <span>Ogma<span class="logo-accent">.</span></span>
             </a>
+        <div class="header-actions">
+            <button class="theme-toggle" id="theme-toggle" aria-label="Changer de thème">☀️</button>
             <button class="hamburger" id="hamburger" aria-label="Menu">☰</button>
-            <nav class="nav-menu" id="nav-menu">
-                <ul class="nav-links">
-                    <li><a href="{{ '/' | relative_url }}">Accueil</a></li>
-                    <li><a href="{{ '/' | relative_url }}#parcours">Tutoriels</a></li>
-                    <li><a href="https://github.com/ogma-info.github.io/issues" target="_blank" rel="noopener">💡 Idées & Bugs</a></li>
-                    <li><button class="theme-toggle" id="theme-toggle" aria-label="Changer de thème">☀️</button></li>
+        </div>
+
+        <nav class="nav-menu" id="nav-menu">
+            <ul class="nav-links">
+                <li><a href="{{ '/' | relative_url }}">Accueil</a></li>
+                <li><a href="{{ '/' | relative_url }}#parcours">Tutoriels</a></li>
+                <li><a href="https://github.com/ogma-info/ogma-info.github.io/issues" target="_blank" rel="noopener">💡 Idées & Bugs</a></li>
+            </ul>
+            
+            <div class="mobile-tutos">
+                <hr>
+                <h4>Nos Tutoriels</h4>
+                <ul>
+                    {% for tuto in sorted_tutos %}
+                    <li>
+                        <a href="{{ tuto.url | relative_url }}">
+                            <span class="tuto-icon">{{ tuto.icon | default: '📄' }}</span>
+                            <span class="tuto-label">{{ tuto.title }}</span>
+                        </a>
+                    </li>
+                    {% endfor %}
                 </ul>
-            </nav>
+            </div>
+        </nav>
         </div>
     </header>
 
@@ -74,8 +92,8 @@
                 <div class="footer-links">
                     <h4>Contribuer</h4>
                     <ul>
-                        <li><a href="https://github.com/6co-cp/ogma.github.io/issues" target="_blank" rel="noopener">Proposer une idée</a></li>
-                        <li><a href="https://github.com/6co-cp/ogma.github.io/issues" target="_blank" rel="noopener">Signaler un problème</a></li>
+                        <li><a href="https://github.com/ogma-info/ogma-info.github.io/issues" target="_blank" rel="noopener">Proposer une idée</a></li>
+                        <li><a href="https://github.com/ogma-info/ogma-info.github.io/issues" target="_blank" rel="noopener">Signaler un problème</a></li>
                     </ul>
                 </div>
             </div>
