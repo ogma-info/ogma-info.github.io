@@ -66,6 +66,15 @@
     });
   }
 
+  // Close sidebar when clicking a link (especially for mobile)
+  sidebar.querySelectorAll('.sidebar-nav a').forEach(function(link) {
+    link.addEventListener('click', function() {
+      if (window.innerWidth <= 768) {
+        setSidebarState(false);
+      }
+    });
+  });
+
   // ========================
   // Hamburger Menu (Mobile Only)
   // ========================

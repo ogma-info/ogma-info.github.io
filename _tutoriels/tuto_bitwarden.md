@@ -1,8 +1,9 @@
 ---
 layout: tutorial
-title: "Maîtriser Bitwarden"
+title: "Mots de passe (Bitwarden)"
 icon: "🔐"
 order: 1
+status: available
 excerpt: "Apprends à utiliser le meilleur gestionnaire de mots de passe open-source pour sécuriser tous tes comptes."
 ---
 

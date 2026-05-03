@@ -31,59 +31,30 @@ title: "Ogma | Hub de Tutoriels Cybersécurité"
         </div>
 
         <div class="roadmap-list">
-            <!-- Étape 1 : Bitwarden -->
-            {% assign tuto_bitwarden = site.tutoriels | where: "title", "Maîtriser Bitwarden" | first %}
-            <div class="roadmap-item reveal {% if tuto_bitwarden %}roadmap-available{% else %}roadmap-soon{% endif %}">
-                {% if tuto_bitwarden %}<a href="{{ tuto_bitwarden.url | relative_url }}" class="roadmap-link">{% endif %}
-                <div class="roadmap-number">01</div>
-                <div class="roadmap-text">
-                    <h4>Mots de passe (Bitwarden) 
-                        {% if tuto_bitwarden %}
-                        <span class="badge badge--available">Disponible</span>
-                        {% else %}
-                        <span class="badge badge--soon">Bientôt</span>
-                        {% endif %}
-                    </h4>
-                    <p>La base absolue : installer un gestionnaire pour ne plus jamais oublier un mot de passe.</p>
-                </div>
-                {% if tuto_bitwarden %}</a>{% endif %}
+            {% assign sorted_roadmap = site.tutoriels | sort: 'order' %}
+            {% for tuto in sorted_roadmap %}
+            <div class="roadmap-item reveal roadmap-{{ tuto.status | default: 'soon' }}">
+                {% if tuto.status == 'available' or tuto.status == 'in_progress' %}
+                <a href="{{ tuto.url | relative_url }}" class="roadmap-link">
+                {% endif %}
+                    <div class="roadmap-number">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</div>
+                    <div class="roadmap-text">
+                        <h4>{{ tuto.title }} 
+                            {% if tuto.status == 'available' %}
+                            <span class="badge badge--available">Disponible</span>
+                            {% elsif tuto.status == 'in_progress' %}
+                            <span class="badge badge--inprogress">À venir</span>
+                            {% else %}
+                            <span class="badge badge--soon">Bientôt</span>
+                            {% endif %}
+                        </h4>
+                        <p>{{ tuto.excerpt }}</p>
+                    </div>
+                {% if tuto.status == 'available' or tuto.status == 'in_progress' %}
+                </a>
+                {% endif %}
             </div>
-
-            <!-- Étape 2 : 2FA -->
-            {% assign tuto_2fa = site.tutoriels | where: "title", "Double Authentification (2FA)" | first %}
-            <div class="roadmap-item reveal {% if tuto_2fa %}roadmap-available{% else %}roadmap-soon{% endif %}">
-                {% if tuto_2fa %}<a href="{{ tuto_2fa.url | relative_url }}" class="roadmap-link">{% endif %}
-                <div class="roadmap-number">02</div>
-                <div class="roadmap-text">
-                    <h4>Double Authentification (2FA)
-                        {% if tuto_2fa %}
-                        <span class="badge badge--available">Disponible</span>
-                        {% else %}
-                        <span class="badge badge--soon">Bientôt</span>
-                        {% endif %}
-                    </h4>
-                    <p>Ajouter une couche de sécurité inviolable à tes comptes les plus importants.</p>
-                </div>
-                {% if tuto_2fa %}</a>{% endif %}
-            </div>
-
-            <!-- Étape 3 : Navigateur -->
-            {% assign tuto_browser = site.tutoriels | where: "title", "Navigateur Sécurisé" | first %}
-            <div class="roadmap-item reveal {% if tuto_browser %}roadmap-available{% else %}roadmap-soon{% endif %}">
-                {% if tuto_browser %}<a href="{{ tuto_browser.url | relative_url }}" class="roadmap-link">{% endif %}
-                <div class="roadmap-number">03</div>
-                <div class="roadmap-text">
-                    <h4>Navigation Privée
-                        {% if tuto_browser %}
-                        <span class="badge badge--available">Disponible</span>
-                        {% else %}
-                        <span class="badge badge--soon">Bientôt</span>
-                        {% endif %}
-                    </h4>
-                    <p>Bloquer les traqueurs et la publicité nativement sur tous tes appareils.</p>
-                </div>
-                {% if tuto_browser %}</a>{% endif %}
-            </div>
+            {% endfor %}
         </div>
     </div>
 </section>
