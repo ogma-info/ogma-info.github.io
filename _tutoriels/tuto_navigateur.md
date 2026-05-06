@@ -37,6 +37,8 @@ Les publicités ne sont pas que visuelles : elles contiennent des **traqueurs**.
 
 ## 🧠 Testez vos réflexes (Le Petit Quiz)
 
+> **💡 Astuce :** *Clique sur les questions ci-dessous pour révéler la réponse !*
+
 <details>
   <summary><b>1. Est-ce que bloquer les publicités est illégal ?</b></summary>
   <p style="color: #3fb950; padding-left: 20px; margin-top: 10px;">

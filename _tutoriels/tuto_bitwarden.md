@@ -18,7 +18,23 @@ excerpt: "Apprends à utiliser le meilleur gestionnaire de mots de passe open-so
 
 ---
 
-## 📥 Étape 1 : Installation du matériel 🛠️
+## 🆕 Étape 1 : Créer son compte Bitwarden 🌐
+
+La première étape consiste à créer votre compte (gratuitement) directement sur le site officiel :
+
+1. Rendez-vous sur la page officielle : [bitwarden.com/pricing/](https://bitwarden.com/pricing/)
+2. Dans la colonne **"Free"**, cliquez sur **"Create Account"** (ou "S'inscrire").
+3. Renseignez votre adresse e-mail et vos informations.
+4. **Attention :** Choisissez un **Mot de passe Maître** fort. C'est le SEUL mot de passe que vous devrez mémoriser ! (Par exemple, une phrase longue comme "MonChatAimeLesPizzas!42"). Ne l'oubliez surtout pas, personne ne pourra le récupérer pour vous.
+5. Validez la création de votre compte.
+
+> **ℹ️ Info : Gratuit ou Payant ?**
+> La version **gratuite** de Bitwarden est suffisante pour 99% des usages (mots de passe illimités, appareils illimités, synchronisation sécurisée). 
+> La version **Premium** (environ 10€/an) ajoute des fonctionnalités optionnelles : le stockage de fichiers cryptés (1 Go), l'authentificateur intégré (TOTP) pour la double authentification, un accès d'urgence, et des rapports de sécurité avancés.
+
+---
+
+## 📥 Étape 2 : Installation du matériel 🛠️
 
 Bitwarden est polyvalent. Voici comment l'installer sur tous vos supports :
 
@@ -34,7 +50,7 @@ C'est indispensable pour se connecter à vos applis (Instagram, Banque, etc.).
 
 ---
 
-## ✨ Étape 2 : Créer un nouveau secret (identifiant) 📝
+## ✨ Étape 3 : Créer un nouveau secret (identifiant) 📝
 
 Lorsque vous vous inscrivez sur un nouveau site ou une app (consultez aussi la [documentation officielle](https://bitwarden.com/fr-fr/help/getting-started-browserext/)) :
 
@@ -53,7 +69,7 @@ Lorsque vous vous inscrivez sur un nouveau site ou une app (consultez aussi la [
 
 ---
 
-## 🔑 Étape 3 : Se connecter (Utiliser un secret existant) ⚡
+## 🔑 Étape 4 : Se connecter (Utiliser un secret existant) ⚡
 
 ### 💻 Sur Ordinateur :
 1.  **L'indicateur :** Un chiffre (ex: "1" ou "2") s'affiche sur l'icône 🛡️.

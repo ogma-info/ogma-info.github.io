@@ -40,6 +40,8 @@ C'est souvent un message qui se fait passer pour un organisme de confiance (Banq
 
 ## 🧠 Testez vos réflexes (Le Petit Quiz)
 
+> **💡 Astuce :** *Clique sur les questions ci-dessous pour révéler la réponse !*
+
 <details>
   <summary><b>1. Un SMS dit que vous avez un remboursement d'impôts en attente. Que faites-vous ?</b></summary>
   <p style="color: #3fb950; padding-left: 20px; margin-top: 10px;">
