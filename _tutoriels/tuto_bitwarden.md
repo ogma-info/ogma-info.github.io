@@ -22,23 +22,23 @@ excerpt: "Apprends à utiliser le meilleur gestionnaire de mots de passe open-so
 
 La première étape consiste à créer votre compte (gratuitement) directement sur le site officiel :
 
-1. Rendez-vous sur la page officielle : [bitwarden.com/pricing/](https://bitwarden.com/pricing/)
-2. Dans la colonne **"Free"**, cliquez sur **"Create Account"** (ou "S'inscrire").
-3. Renseignez votre adresse e-mail et vos informations.
-4. **Attention :** Choisissez un **Mot de passe Maître** fort. C'est le SEUL mot de passe que vous devrez mémoriser ! (Par exemple, une phrase longue comme "MonChatAimeLesPizzas!42"). Ne l'oubliez surtout pas, personne ne pourra le récupérer pour vous.
-5. Validez la création de votre compte.
+1. Rendez-vous sur la page officielle : [bitwarden.com/go/start-free/](https://bitwarden.com/go/start-free/)
+2. Renseignez votre adresse e-mail.
+3. Vous recevrez un email intitulé "Verify Your Email", après l'avoir ouvert, cliquez sur le bouton **Verify Email**. Vous serez redirigé vers la création de votre mot de passe de coffre fort.
+3. **Attention :** Choisissez un **Mot de passe Maître** fort. C'est le **SEUL** mot de passe que vous devrez mémoriser ! (Par exemple, une phrase longue comme "MonChatAimeLesPizzas!42"). Ne l'oubliez surtout pas, personne ne pourra le récupérer pour vous.
+4. Validez la création de votre compte.
 
 > **ℹ️ Info : Gratuit ou Payant ?**
-> La version **gratuite** de Bitwarden est suffisante pour 99% des usages (mots de passe illimités, appareils illimités, synchronisation sécurisée). 
-> La version **Premium** (environ 10€/an) ajoute des fonctionnalités optionnelles : le stockage de fichiers cryptés (1 Go), l'authentificateur intégré (TOTP) pour la double authentification, un accès d'urgence, et des rapports de sécurité avancés.
+> La version **gratuite** de Bitwarden est **suffisante pour 99% des usages** (mots de passe illimités, appareils illimités, synchronisation sécurisée). 
+> La version **Premium** (environ 10€/an) ajoute des fonctionnalités optionnelles : le stockage de fichiers chiffrés (1 Go), l'authentificateur intégré (TOTP) pour la double authentification, un accès d'urgence, et des rapports de sécurité avancés.
 
 ---
 
-## 📥 Étape 2 : Installation du matériel 🛠️
+## 📥 Étape 2 : Installation de **Bitwarden** 🛠️
 
 Bitwarden est polyvalent. Voici comment l'installer sur tous vos supports :
 
-### 🌐 1. L'Extension Web & Desktop
+### 🌐 1. L'Extension **navigateur** et sur **PC**
 *   **Extension :** [Chrome Web Store](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb) / [Firefox](https://addons.mozilla.org/fr/firefox/addon/bitwarden-password-manager/). **Épinglez l'icône** 🛡️.
 *   **Windows :** Téléchargez l'application sur [bitwarden.com/download](https://bitwarden.com/download/). Suivez "Suivant, Terminer". Facile ! 🎈
 
