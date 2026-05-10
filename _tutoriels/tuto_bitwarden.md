@@ -66,6 +66,7 @@ Lorsque vous vous inscrivez sur un nouveau site ou une app (consultez aussi la [
 > **💡 Conseil d'expert :** Un mot de passe robuste est toujours complexe et dans l'idéal constitué d'au moins 16 caractères aléatoires, de chiffres, de lettres majuscules et minuscules, et de caractères spéciaux.
 
 ![Capture : Création d'un élément Bitwarden]({{ '/assets/images/bw_step2.jpg' | relative_url }})
+
 *Interface de création d'un secret.*
 
 ---
