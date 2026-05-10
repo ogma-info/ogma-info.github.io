@@ -3,7 +3,7 @@ layout: tutorial
 title: "Outils utiles"
 icon: " 🧰"
 order: 6
-status: in_progress
+status: available
 excerpt: "Quelques outils utiles et indispensables pour se protéger et réagir aux fuites !"
 ---
 
