@@ -1,6 +1,6 @@
 ---
 layout: tutorial
-title: "Mots de passe (Bitwarden)"
+title: "Gestionnaire de mots de passe (Bitwarden)"
 icon: "🪎"
 order: 1
 status: available
@@ -29,6 +29,7 @@ La première étape consiste à créer votre compte (gratuitement) directement s
 4. Validez la création de votre compte.
 
 > **ℹ️ Info : Gratuit ou Payant ?**
+> 
 > La version **gratuite** de Bitwarden est **suffisante pour 99% des usages** (mots de passe illimités, appareils illimités, synchronisation sécurisée). 
 > La version **Premium** (environ 10€/an) ajoute des fonctionnalités optionnelles : le stockage de fichiers chiffrés (1 Go), l'authentificateur intégré (TOTP) pour la double authentification, un accès d'urgence, et des rapports de sécurité avancés.
 
